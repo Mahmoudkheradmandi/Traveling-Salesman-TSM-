@@ -1,7 +1,8 @@
 import cv2
 
 # Drow Cities    
-def drow_cities(img , location_list , color):
-    for city in location_list: 
-        img = cv2.circle(img , city , 7 , color , -1)
-    return img    
+
+def draw_cities(img, cities_locations):
+    for x,y in cities_locations:
+        img = cv2.circle(img, (x,y), 6, (0,0,255), -1)
+    return img

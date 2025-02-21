@@ -1,5 +1,5 @@
 # setting the problems parameters
 
-N_CITIES = 10
-AREA_WIDTH = 400
-AREA_HEIGHT = 400
+N_CITIES = 4
+AREA_WIDTH = 600
+AREA_HEIGHT = 600

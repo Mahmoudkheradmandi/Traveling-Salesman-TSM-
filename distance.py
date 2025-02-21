@@ -6,3 +6,10 @@ def distance(path):
     for i in range(len(path)-1):
         dis += np.sqrt((path[i][0]-path[i+1][0])**2 + (path[i][1]-path[i][1])**2)
     return dis    
+
+
+def distance_calculator(path):
+    length = 0
+    for i in range(len(path)-1):
+        length += np.sqrt((path[i][0]-path[i+1][0])**2 + (path[i][1]-path[i+1][1])**2)
+    return length
